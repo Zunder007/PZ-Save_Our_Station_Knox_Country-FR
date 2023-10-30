@@ -1,0 +1,6 @@
+ItemName_FR = {
+    ItemName_Base.SWWS_KnoxCountry_Register = "Registre NWS",
+    ItemName_Base.SWWS_KnoxCountry_RegisterAnnotated = "Registre NWS - Annoté",
+
+	ItemName_Base.SWWS_KnoxCountry_WswuCard = "Membre des travailleurs des services météorologiques",
+}

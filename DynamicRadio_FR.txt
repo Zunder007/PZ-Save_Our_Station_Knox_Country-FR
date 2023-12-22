@@ -1,0 +1,88 @@
+DynamicRadio_FR = {
+    AEBS_Integrity = "Intégrité du système de diffusion...",
+    
+    AEBS_ConditionNominal = "Condition nominale.",
+    AEBS_KnoxPowerGridStatusUnavailable = "Réseau Électrique de Knox: Statut indisponible ...",
+    AEBS_ForcastOffline = "Prévisions météorologiques: Satellite inaccessible...",
+    AEBS_AirTrafficRadarDisabled = "Radar de la circulation aérienne: Erreur système...",
+
+    AEBS_EmergencyShutdownImminent = "AVERTISSEMENT: Défaut système {fuzz} Arrêt dans {fuzz} minutes.",
+    AEBS_EmergencyShutdownInHours = "AVERTISSEMENT: Défaut système {fuzz} Arrêt dans {hours} heures.",
+    AEBS_EmergencyShutdownInDays = "AVERTISSEMENT: Défaut système {fuzz} Arrêt dans {days} jours.",
+    
+    AEBS_ConditionFault = "défaut",
+    AEBS_ConditionAnomaly = "anomalie",
+    AEBS_ConditionDefect = "défectueux",
+    AEBS_ConditionFailure = "défaillance",
+    
+    AEBS_LocationRequiresUtilCrewDispatch = "Nécessite l'envoi d'une Équipe de services publics à {location}...",
+    AEBS_DiagnosticCode = "Code diagnotique [ {code} ] {system} - {description}",
+    
+    AEBS_FaultFuelPump = "POMPE À CARBURANT",
+    AEBS_FaultTransformer = "TRANSFORMATEUR",
+    AEBS_FaultTransmitter = "ÉMETTEUR",
+    AEBS_FaultReciever = "RÉCEPTEUR",
+    AEBS_FaultGenerator = "GÉNÉRATEUR",
+    AEBS_FaultDieselUnit = "TAUX DE CARBURANT",
+    AEBS_FaultCurrentRegulator = "RÉGULATEUR DE COURANT",
+    AEBS_FaultCapacitorArray = "CONDENSATEURS",
+    AEBS_FaultRepairReplaceFuelLine = "REMPLACER LA CONDUITE DE CARBURANT",
+    AEBS_FaultRepairControlBoardReplacement = "REMPLACER LE TABLEAU DE CONTRÔLE",
+    AEBS_FaultRepairRerouteShort = "REDIRIGER LE COURT-CIRCUIT ÉLECTRIQUE",
+    AEBS_FaultRepairReplaceUnit = "REMPLACER L'UNITÉ",
+    AEBS_FaultRepairRepairUnit = "RÉPARER L'UNITÉ",
+    AEBS_FaultRepairRefuelGasoline = "REMETTRE DU CARBURANT",
+    AEBS_FaultRepairClearShort = "RÉPARER LE COURT-CIRCUIT ÉLECTRIQUE",
+    
+    AEBS_StageStatusNominal_1 = "Condition nominale.",
+    AEBS_StageStatusNominal_2 = "Aucun problème détecté.",
+    AEBS_StageStatusNominal_3 = "Fonctionne selon les paramètres établis.",
+    AEBS_StageStatusNominal_4 = "Infrastructure stable.",
+    
+    AEBS_StageStatusRepaired_1 = "{Condition} {fuzz} restauré(e).",
+    AEBS_StageStatusRepaired_2 = "Fonctionnalité réseau restaurée.",
+    AEBS_StageStatusRepaired_3 = "Tous les systèmes sont restaurés.",
+    
+    AEBS_StageStatusDetected_1 = "{Condition} détecté(e).",
+    AEBS_StageStatusDetected_2 = "{Condition} {fuzz}",
+    AEBS_StageStatusDetected_3 = "{fuzz} détecté(e).",
+    AEBS_StageStatusDetected_4 = "{fuzz}",
+    
+    AEBS_StageStatusDiagnosing_1 = "Diagnostiquer {condition}.",
+    AEBS_StageStatusDiagnosing_2 = "Diagnostiquer {fuzz}",
+    AEBS_StageStatusDiagnosing_3 = "{fuzz} {condition}.",
+    AEBS_StageStatusDiagnosing_4 = "Résultat non concluant {fuzz} Redémarrage du diagnostique.",
+    AEBS_StageStatusDiagnosing_5 = "Résultats corrompus {fuzz} Redémarrage du diagnostique.",
+    AEBS_StageStatusDiagnosing_6 = "Diagnostique incomplet {fuzz} Redémarrage du diagnostique.",
+
+    AEBS_StageStatusRebooting_1 = "{Condition} identifié(e) {fuzz} Tentative de redémarrage {system} ...",
+    AEBS_StageStatusRebooting_2 = "{Condition} identifié(e) {fuzz} {system} redémarrage...",
+    AEBS_StageStatusRebooting_3 = "{Condition} identifié(e) {fuzz} Redémarrage {system}...",
+    AEBS_StageStatusRebooting_4 = "{Condition} identifié(e) dans {system} {fuzz} Redémarrage en cours...",
+
+    AEBS_StageStatusRerouting_1 = "{Condition} identifié(e) {fuzz} Reroutage du réseau vers {fuzz} station {fuzz}...",
+    AEBS_StageStatusRerouting_2 = "{Condition} identifié(e) dans {system} {fuzz} Tentative de reroutage...",
+
+    AEBS_StageStatusInterruption_1 = "Interruption temporaire de la diffusion {fuzz} Systèmes indisponibles...",
+    AEBS_StageStatusInterruption_2 = "Panne temporaire de diffusion {fuzz} Systèmes indisponibles...",
+    
+    AEBS_StageStatusInterruptionResolved_1 = "Système {fuzz} restauré, initialisation du réseau...",
+    AEBS_StageStatusInterruptionResolved_2 = "Panne du réseau {fuzz} réparée, initialisation des systèmes...",   
+    
+    AEBS_StageStatusRebootSuccess_1 = "{system} restauré {fuzz} Initialisation de la diffusion en cours...",
+    AEBS_StageStatusRebootSuccess_2 = "Redémarrage du système affiche {Condition} {fuzz} Mise à jour du réseau en cours...",
+
+    AEBS_StageStatusReroutingSuccess_1 = "Trafic redirigé avec succès {fuzz} Initialisation de la diffusion en cours...",
+    AEBS_StageStatusReroutingSuccess_2 = "Trafic réseau redirigé {fuzz} Mise à jour du réseau en cours...",
+
+    AEBS_StageStatusRebootFailure_1 = "Redémarrage {system} a échoué {fuzz} Erreur majeure {condition} toujours en cours...",
+    AEBS_StageStatusRebootFailure_2 = "{system} {Condition} {fuzz} Échec du redémarrage {fuzz}",
+
+    AEBS_StageStatusReroutingFailure_1 = "Échec de la redirection du trafic réseau {fuzz} {system} {condition} persiste...",
+    AEBS_StageStatusReroutingFailure_2 = "Impossible de rediriger le trafic {fuzz} Échec de la résolution {condition} dans {system}...",
+
+    AEBS_StageStatusFatal_1 = "{fuzz} disfonctionnement {condition}... {fuzz}",
+    AEBS_StageStatusFatal_2 = "{fuzz} échec {fuzz}",
+    AEBS_StageStatusFatal_3 = "{condition} Erreur fatale...",
+    AEBS_StageStatusFatal_4 = "Disfonctionnement {condition} {fuzz} Réseau en mode Arrêt d'urgence...",
+}
